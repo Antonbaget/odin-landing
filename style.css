@@ -139,7 +139,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 0px;
+    padding: 100px 0px 80px;
 }
 
 .quote_content{
@@ -157,4 +157,50 @@ h1{
 .quote_content > span{
     font-size: 24px;
     align-self: flex-end;
+}
+
+/* ---------------------------------------------------------------------------- CALL ------------------------------------------------------------- */
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.call_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #3882F6;  
+    padding: 30px 50px;
+    border-radius: 15px;
+    color: #e5e7eb;
+}
+
+.call_content > .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call_content > button{
+    background-color: #3882F6;
+    border: solid 2px #f9faf8;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+/* --------------------------------------------------------- FOOTER ------------------------------------------------------------------------ */
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    padding: 50px 0px;
 }
