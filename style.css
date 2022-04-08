@@ -46,8 +46,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 100px 0px;
 }
 
 h1{
@@ -75,7 +74,7 @@ h1{
     color: #e5e7eb;
 }
 
-.picture{
+.hero_content > .picture{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,3 +96,38 @@ h1{
 
 /* -------------------------------------------------------------------- INFO --------------------------------------------------- */
 
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px 100px;
+    gap: 30px;
+}
+
+.info_content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.info_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    width:190px
+}
+
+.info_container > .picture{
+    width: 190px;
+    height: 210px;
+    background-color: #a0a3a1;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
