@@ -131,3 +131,30 @@ h1{
     align-items: center;
     text-align: center;
 }
+
+/* ---------------------------------------------- QUOTE ----------------------------------------------------------------------------------- */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.quote_content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote_content > h2{
+    font: 36px italic #1f2937;
+    font-weight: 100;
+}
+
+.quote_content > span{
+    font-size: 24px;
+    align-self: flex-end;
+}
